@@ -1,7 +1,7 @@
 gnx86
 =====
 
-gnx86 is not x86. But it is a free (as in freedom) computer, or at least a seed for one. 
+gnx86 is not x86. But it is a free (as in freedom) computer, or at least a seed for one. Free computers are necessary for GNUsers, since [the GNU freedoms must include hardware to make any sense](http://blogg.hioa.no/alfred/2013/03/03/the-gnu-freedoms-must-include-hardware-to-make-any-sense/). 
 
 #What it's currently supposed to be:
 - A C++ implementation of a Turing complete register machine
