@@ -31,9 +31,33 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>gnx86 is a free computer. Just not a physical one.</h3>
+        <h1>gnx86</h1>
 
-<p>The goal is to make a simple, implementable, yet readable computer architecture, based on a register machine with interrupts. Free computers are necessary for GNUsers, since <a href="http://blogg.hioa.no/alfred/2013/03/03/the-gnu-freedoms-must-include-hardware-to-make-any-sense/">the GNU freedoms must include hardware to make any sense</a>. </p>
+<p>gnx86 is not x86. But it is a free (as in freedom) computer, or at least a seed for one. Free computers are necessary for GNUsers, since <a href="http://blogg.hioa.no/alfred/2013/03/03/the-gnu-freedoms-must-include-hardware-to-make-any-sense/">the GNU freedoms must include hardware to make any sense</a>. </p>
+
+<h3>What it's currently supposed to be:</h3>
+
+<ul>
+<li>A C++ implementation of a Turing complete register machine</li>
+<li>Very small</li>
+<li>Extremely inefficient</li>
+</ul><h3>What it's supposed to become:</h3>
+
+<ul>
+<li>A pysically implementable computer
+
+<ul>
+<li>using a small subset of the x86 instruction set</li>
+<li>With basic interrupt support</li>
+<li>Serial-like I/O ports, each supporting interrupts</li>
+<li>Probably no interrupt timer, except over serial I/O</li>
+</ul>
+</li>
+<li>A functioning virtual machine</li>
+<li>Extremely small, but maybe less extremely inefficient</li>
+</ul><h3>Why does size matter?</h3>
+
+<p>Because if you really want to <a href="http://www.gnu.org/philosophy/free-sw.html">control your own computing</a> you have to be able to read, and understand the source code of both your software and your hardware, in less than a lifetime. That's usually very optimistic.</p>
 
 <p>gnx86 has nothing to do with GNU, except that it considers it a friend.</p>
       </section>
