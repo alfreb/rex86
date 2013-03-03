@@ -18,4 +18,4 @@ gnx86 is not x86. But it is a free (as in freedom) computer, or at least a seed 
 - Extremely small, but maybe less extremely inefficient
 
 ###Why does size matter?
-Because if you really want to [control your own computing](http://www.gnu.org/philosophy/free-sw.html) you have to be able to read, and understand the source code of both your software and your hardware, in less than a lifetime. That's usually very optimistic.
+Because if you really want to [control your own computing](http://www.gnu.org/philosophy/free-sw.html) you have to be able to read, and understand the source code of both your software and your hardware, in less than a lifetime. That's usually very optimistic, but if you want to be a true GNU Purist, you should. Personally I'd become a GNU Purist if there was awesome free (as in freedom) hardware available, which makes me a pragmatist.
