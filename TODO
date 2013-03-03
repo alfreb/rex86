@@ -1,0 +1,6 @@
+[ ] MOV accept literals and registers
+  - OR MOV and CP
+
+[x] Labels, otherwise jumps are almost impossible
+
+[ ] Add interrupts
